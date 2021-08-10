@@ -1,0 +1,2300 @@
+@charset "UTF-8";
+* {
+  margin: 0;
+  padding: 0; }
+
+* #grilla {
+  display: grid;
+  height: 3700px;
+  grid-template-columns: 100%;
+  grid-template-rows: 3% 23% 25% 34% 12% 3%;
+  grid-template-areas: "header" "portada" "seccionPrincipal" "seccionSecundaria" "SeccionTerciaria" "footer"; }
+  * #grilla #hijoHeader {
+    background-image: linear-gradient(to bottom, #1e1f1e, #3b3b3b);
+    /*Menu Navegacion */
+    /* */ }
+    * #grilla #hijoHeader .menu {
+      margin: 0;
+      padding: 0;
+      display: flex;
+      flex-direction: row;
+      justify-content: space-evenly;
+      text-decoration: none;
+      height: 100px; }
+      * #grilla #hijoHeader .menu .logo {
+        padding-top: 20px; }
+      * #grilla #hijoHeader .menu .nav__lista {
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+        list-style-type: none;
+        text-decoration: none; }
+        * #grilla #hijoHeader .menu .nav__lista .nav__item {
+          height: 40px;
+          font-family: Arial, Helvetica, sans-serif;
+          justify-content: space-between;
+          font-size: 18px;
+          font-weight: bold;
+          padding-right: 10px;
+          color: #09b109; }
+          * #grilla #hijoHeader .menu .nav__lista .nav__item .nav__link {
+            color: #09b109;
+            text-decoration: none; }
+          * #grilla #hijoHeader .menu .nav__lista .nav__item a:hover {
+            color: white; }
+      * #grilla #hijoHeader .menu .redesNav {
+        display: flex;
+        flex-direction: row;
+        list-style-type: none;
+        align-items: center; }
+        * #grilla #hijoHeader .menu .redesNav .redesNav__item {
+          color: white;
+          height: 40px;
+          font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+          justify-content: space-between;
+          font-size: 15px;
+          font-weight: bold;
+          padding-right: 10px; }
+          * #grilla #hijoHeader .menu .redesNav .redesNav__item .redesNav__link {
+            color: white;
+            text-decoration: none; }
+          * #grilla #hijoHeader .menu .redesNav .redesNav__item i:hover {
+            color: green; }
+  * #grilla #hijoPortada {
+    background-color: black;
+    background-size: 100%;
+    height: 100%; }
+    * #grilla #hijoPortada .seccionIndex {
+      background-image: url(../multimedia/cf19.jpeg);
+      background-repeat: no-repeat;
+      background-size: cover;
+      max-width: 100%;
+      height: 100%; }
+      * #grilla #hijoPortada .seccionIndex .titulosPrincipales {
+        color: #2da12d;
+        font-style: oblique;
+        text-align: center;
+        font-size: 70px;
+        font-family: 'Fugaz One', cursive;
+        padding: 120px 10px 10px 10px; }
+      * #grilla #hijoPortada .seccionIndex .titulosSecundarios {
+        color: #fdfdfd;
+        text-align: center;
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        font-style: oblique;
+        font-size: 40px;
+        font-weight: bold;
+        padding-top: 20px; }
+    * #grilla #hijoPortada .seccionClases {
+      background-image: url(../multimedia/cf8.jpg);
+      background-repeat: no-repeat;
+      background-size: cover;
+      height: 100%;
+      max-width: 100%;
+      padding-top: 20px; }
+      * #grilla #hijoPortada .seccionClases .titulosPrincipales {
+        color: #2da12d;
+        font-style: oblique;
+        text-align: center;
+        font-size: 70px;
+        font-family: 'Fugaz One', cursive;
+        padding: 60px 10px 10px 10px; }
+      * #grilla #hijoPortada .seccionClases .titulosSecundarios {
+        color: #fdfdfd;
+        text-align: center;
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        font-style: oblique;
+        font-size: 40px;
+        font-weight: bold;
+        padding-top: 20px; }
+    * #grilla #hijoPortada .seccionHorarios {
+      background-image: url(../multimedia/cf9.jpg);
+      background-repeat: no-repeat;
+      background-size: cover;
+      height: 100%;
+      max-width: 100%;
+      padding-top: 20px; }
+      * #grilla #hijoPortada .seccionHorarios .titulosPrincipales {
+        color: #2da12d;
+        font-style: oblique;
+        text-align: center;
+        font-size: 70px;
+        font-family: 'Fugaz One', cursive;
+        padding: 60px 10px 10px 10px; }
+    * #grilla #hijoPortada .seccionContacto {
+      background-image: url(../multimedia/crossfit6.jpg);
+      background-repeat: no-repeat;
+      background-size: cover;
+      height: 100%; }
+      * #grilla #hijoPortada .seccionContacto .titulosPrincipales {
+        color: #2da12d;
+        font-style: oblique;
+        text-align: center;
+        font-size: 70px;
+        font-family: 'Fugaz One', cursive;
+        padding: 60px 10px 10px 10px; }
+    * #grilla #hijoPortada .seccionGaleria {
+      background-image: url(../multimedia/crossfit5.jpg);
+      background-repeat: no-repeat;
+      background-size: cover;
+      height: 100%; }
+      * #grilla #hijoPortada .seccionGaleria .titulosPrincipales {
+        color: #2da12d;
+        font-style: oblique;
+        text-align: center;
+        font-size: 70px;
+        font-family: 'Fugaz One', cursive;
+        padding: 60px 10px 10px 10px; }
+  * #grilla #hijoSeccionPrincipal {
+    background-image: linear-gradient(to bottom, #525252, #5ad45a);
+    /* INICIO Grilla para Seccion Principal Index - PAGINA INDEX*/
+    /*FIN*/
+    /*Grilla Dos para Seccion Principal -  PAGINA CLASES*/
+    /*FIN*/
+    /* PAGINA HORARIOS*/
+    /*FIN HORARIOS*/
+    /* PAGINA CONTACTO*/
+    /*FIN CONTACTO
+
+        /*PAGINA GALERIA*/
+    /*FIN GALERIA*/ }
+    * #grilla #hijoSeccionPrincipal #grillaSeccionPrincipal {
+      background-image: linear-gradient(to bottom, #5a5a5a, #3b8a3b);
+      display: grid;
+      height: 100%;
+      grid-template-columns: 50% 50%;
+      grid-template-rows: 100%;
+      grid-template-areas: "articulo" "fotoPrincipal";
+      column-gap: 10px;
+      justify-items: center;
+      align-items: stretch;
+      background-color: #4d4d4d; }
+      * #grilla #hijoSeccionPrincipal #grillaSeccionPrincipal #articuloPrincipal {
+        grid-area: articulo; }
+        * #grilla #hijoSeccionPrincipal #grillaSeccionPrincipal #articuloPrincipal .titulosSecundarios {
+          color: #fdfdfd;
+          text-align: center;
+          font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+          font-style: oblique;
+          font-size: 40px;
+          font-weight: bold;
+          padding-top: 20px; }
+        * #grilla #hijoSeccionPrincipal #grillaSeccionPrincipal #articuloPrincipal .contenidoParrafo {
+          font-family: 'Source Sans Pro', sans-serif;
+          text-align: justify;
+          font-weight: inherit;
+          padding-top: 20px;
+          font-size: 100%;
+          color: white; }
+        * #grilla #hijoSeccionPrincipal #grillaSeccionPrincipal #articuloPrincipal div a .btn {
+          margin-left: 40%;
+          border-style: double;
+          font-size: 100%;
+          font-weight: bold;
+          color: white; }
+      * #grilla #hijoSeccionPrincipal #grillaSeccionPrincipal #hijoFotoPrincipal {
+        padding-top: 30px; }
+        * #grilla #hijoSeccionPrincipal #grillaSeccionPrincipal #hijoFotoPrincipal img {
+          height: 50%;
+          border-style: solid;
+          border-color: black;
+          border-radius: 8px; }
+        * #grilla #hijoSeccionPrincipal #grillaSeccionPrincipal #hijoFotoPrincipal .titulosTerciarios {
+          color: black;
+          text-align: center;
+          font-family: 'Source Sans Pro', sans-serif;
+          font-style: oblique;
+          font-size: 20px;
+          font-weight: bold;
+          padding-top: 5px; }
+    * #grilla #hijoSeccionPrincipal #grillaDosClases {
+      background-image: linear-gradient(to bottom, #5a5a5a, #3b8a3b);
+      display: grid;
+      height: 100%;
+      grid-template-columns: 50% 50%;
+      grid-template-rows: 100%;
+      grid-template-areas: "articulo" "fotoClases";
+      background-color: #4d4d4d;
+      column-gap: 10px;
+      justify-items: center;
+      align-items: stretch;
+      /*FIN*/ }
+      * #grilla #hijoSeccionPrincipal #grillaDosClases #articuloPrincipalClases {
+        grid-area: articulo; }
+        * #grilla #hijoSeccionPrincipal #grillaDosClases #articuloPrincipalClases .titulosSecundarios {
+          color: #fdfdfd;
+          text-align: center;
+          font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+          font-style: oblique;
+          font-size: 40px;
+          font-weight: bold;
+          padding-top: 20px; }
+        * #grilla #hijoSeccionPrincipal #grillaDosClases #articuloPrincipalClases .contenidoParrafo {
+          font-family: 'Source Sans Pro', sans-serif;
+          text-align: center;
+          font-weight: bold;
+          padding-top: 20px;
+          font-size: 100%;
+          color: white; }
+      * #grilla #hijoSeccionPrincipal #grillaDosClases #fotoPrincipalClases {
+        padding-top: 40px;
+        padding-left: 60px; }
+        * #grilla #hijoSeccionPrincipal #grillaDosClases #fotoPrincipalClases img {
+          height: 50%;
+          border-style: solid;
+          border-color: black;
+          border-radius: 8px; }
+        * #grilla #hijoSeccionPrincipal #grillaDosClases #fotoPrincipalClases .titulosTerciarios {
+          color: black;
+          text-align: center;
+          font-family: 'Source Sans Pro', sans-serif;
+          font-style: oblique;
+          font-size: 20px;
+          font-weight: bold;
+          padding-top: 5px; }
+    * #grilla #hijoSeccionPrincipal #seccionPrincipal .titulosSecundarios {
+      color: #fdfdfd;
+      text-align: center;
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      font-style: oblique;
+      font-size: 40px;
+      font-weight: bold;
+      padding-top: 20px; }
+    * #grilla #hijoSeccionPrincipal #seccionPrincipal #textosPrincipales {
+      font-family: 'Source Sans Pro', sans-serif;
+      text-align: center;
+      font-weight: bold;
+      padding-top: 20px; }
+    * #grilla #hijoSeccionPrincipal #seccionSecundaria .titulosSecundarios {
+      color: #fdfdfd;
+      text-align: center;
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      font-style: oblique;
+      font-size: 40px;
+      font-weight: bold;
+      padding-top: 20px; }
+    * #grilla #hijoSeccionPrincipal #seccionSecundaria .titulosTerciarios {
+      color: black;
+      text-align: center;
+      font-family: 'Source Sans Pro', sans-serif;
+      font-style: oblique;
+      font-size: 15px;
+      font-weight: bold;
+      padding-top: 2px; }
+    * #grilla #hijoSeccionPrincipal .titulosContacto .titulosSecundarios {
+      color: #fdfdfd;
+      text-align: center;
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      font-style: oblique;
+      font-size: 40px;
+      font-weight: bold;
+      padding-top: 20px; }
+    * #grilla #hijoSeccionPrincipal .titulosContacto .titulosTerciarios {
+      color: black;
+      text-align: center;
+      font-family: 'Source Sans Pro', sans-serif;
+      font-style: oblique;
+      font-size: 20px;
+      font-weight: bold;
+      padding-top: 20px; }
+    * #grilla #hijoSeccionPrincipal .direccionContacto {
+      /*Google Maps - Animación*/
+      /*Flex Ubicacion - PAGINA CONTACTO */ }
+      * #grilla #hijoSeccionPrincipal .direccionContacto .contenidoParrafo {
+        font-family: 'Source Sans Pro', sans-serif;
+        text-align: justify;
+        font-weight: bold;
+        padding-top: 20px; }
+      * #grilla #hijoSeccionPrincipal .direccionContacto iframe {
+        width: 600px;
+        transition: 3s; }
+      * #grilla #hijoSeccionPrincipal .direccionContacto iframe:hover {
+        width: 1300px; }
+      * #grilla #hijoSeccionPrincipal .direccionContacto #contenedorUbicacion {
+        display: flex;
+        flex-direction: row;
+        height: 300px;
+        max-width: 100%;
+        justify-content: center;
+        align-items: center;
+        margin-left: 10%; }
+        * #grilla #hijoSeccionPrincipal .direccionContacto #contenedorUbicacion #cajaDireccion {
+          flex-grow: 1;
+          font-size: 100px;
+          font-weight: bold; }
+          * #grilla #hijoSeccionPrincipal .direccionContacto #contenedorUbicacion #cajaDireccion .fas:hover {
+            color: white;
+            transform: scale(1.2); }
+          * #grilla #hijoSeccionPrincipal .direccionContacto #contenedorUbicacion #cajaDireccion a {
+            text-decoration: none; }
+        * #grilla #hijoSeccionPrincipal .direccionContacto #contenedorUbicacion #cajaCelular {
+          flex-grow: 1;
+          font-size: 100px;
+          font-weight: bold; }
+          * #grilla #hijoSeccionPrincipal .direccionContacto #contenedorUbicacion #cajaCelular .fas:hover {
+            color: white;
+            transform: scale(1.2); }
+        * #grilla #hijoSeccionPrincipal .direccionContacto #contenedorUbicacion #cajaHorario {
+          flex-grow: 1;
+          font-size: 100px;
+          font-weight: bold; }
+          * #grilla #hijoSeccionPrincipal .direccionContacto #contenedorUbicacion #cajaHorario .far:hover {
+            color: white;
+            transform: scale(1.2); }
+    * #grilla #hijoSeccionPrincipal #grillaDosGaleria {
+      background-image: linear-gradient(to bottom, #5a5a5a, #3b8a3b);
+      display: grid;
+      height: 100%;
+      grid-template-columns: 50% 50%;
+      grid-template-rows: 100%;
+      grid-template-areas: "articulo" "fotoClases";
+      background-color: #4d4d4d;
+      column-gap: 10px;
+      justify-items: center;
+      align-items: stretch; }
+      * #grilla #hijoSeccionPrincipal #grillaDosGaleria #articuloPrincipalGaleria {
+        grid-area: articulo; }
+        * #grilla #hijoSeccionPrincipal #grillaDosGaleria #articuloPrincipalGaleria .titulosSecundarios {
+          color: #fdfdfd;
+          text-align: center;
+          font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+          font-style: oblique;
+          font-size: 40px;
+          font-weight: bold;
+          padding-top: 20px; }
+        * #grilla #hijoSeccionPrincipal #grillaDosGaleria #articuloPrincipalGaleria .contenidoParrafo {
+          font-family: 'Source Sans Pro', sans-serif;
+          text-align: center;
+          font-weight: bold;
+          padding-top: 20px;
+          font-size: 100%;
+          color: white; }
+          * #grilla #hijoSeccionPrincipal #grillaDosGaleria #articuloPrincipalGaleria .contenidoParrafo .titulosTerciarios {
+            color: black;
+            text-align: center;
+            font-family: 'Source Sans Pro', sans-serif;
+            font-style: oblique;
+            font-size: 20px;
+            font-weight: bold;
+            padding-top: 20px; }
+      * #grilla #hijoSeccionPrincipal #grillaDosGaleria #fotoPrincipalGaleria {
+        padding-top: 30px; }
+        * #grilla #hijoSeccionPrincipal #grillaDosGaleria #fotoPrincipalGaleria img {
+          height: 50%;
+          border-color: black;
+          border-style: solid;
+          border-radius: 8px; }
+        * #grilla #hijoSeccionPrincipal #grillaDosGaleria #fotoPrincipalGaleria .titulosTerciarios {
+          color: black;
+          text-align: center;
+          font-family: 'Source Sans Pro', sans-serif;
+          font-style: oblique;
+          font-size: 20px;
+          font-weight: bold;
+          padding-top: 5px; }
+  * #grilla #hijoSeccionSecundaria {
+    background-image: linear-gradient(to bottom, #417041, #167516);
+    /*Botones y Grillas para Promociones */
+    /* */
+    /*Flex para Actividades INDEX - INDEX */
+    /* */
+    /*Flex para Valores Distintivos Gim - INDEX */
+    /*Grilla Tres para Seccion Secundaria -  PAGINA CLASES*/
+    /* */
+    /*Flex Precios para Seccion Secundaria - PAGINA HORARIOS*/
+    /* */ }
+    * #grilla #hijoSeccionSecundaria .titulosSecundarios {
+      color: #fdfdfd;
+      text-align: center;
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      font-style: oblique;
+      font-size: 40px;
+      font-weight: bold;
+      padding-top: 20px; }
+    * #grilla #hijoSeccionSecundaria #textosPrincipales {
+      font-family: 'Source Sans Pro', sans-serif;
+      text-align: center;
+      font-weight: bold;
+      padding-top: 20px; }
+    * #grilla #hijoSeccionSecundaria .titulosTerciarios {
+      color: black;
+      text-align: center;
+      font-family: 'Source Sans Pro', sans-serif;
+      font-style: oblique;
+      font-size: 20px;
+      font-weight: bold;
+      padding-top: 5px; }
+    * #grilla #hijoSeccionSecundaria #contenedorPromoFocus {
+      height: 150px;
+      background-color: black;
+      display: flex;
+      flex-direction: row;
+      justify-content: space-evenly;
+      align-items: center; }
+      * #grilla #hijoSeccionSecundaria #contenedorPromoFocus #tituloPromoFocus {
+        text-align: left;
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        font-style: oblique;
+        font-weight: bold;
+        font-size: 200%;
+        color: #169b16;
+        padding-bottom: 30px; }
+      * #grilla #hijoSeccionSecundaria #contenedorPromoFocus #cajaBotonClaseOnline {
+        text-align: center;
+        font-family: 'Source Sans Pro', sans-serif;
+        font-size: 170%;
+        font-weight: bold;
+        font-style: oblique;
+        padding-left: 20px;
+        color: #169b16; }
+      * #grilla #hijoSeccionSecundaria #contenedorPromoFocus aside div input {
+        font-size: 60%; }
+    * #grilla #hijoSeccionSecundaria #contenedorActividades {
+      background-color: linear-gradient(to bottom, #181818, #424242);
+      display: flex;
+      flex-direction: row;
+      justify-content: center;
+      align-items: center;
+      height: auto;
+      width: 100%; }
+      * #grilla #hijoSeccionSecundaria #contenedorActividades #cajaFun {
+        background-image: url(../multimedia/fun5.jpg);
+        background-repeat: no-repeat;
+        background-size: cover;
+        flex-grow: 0;
+        height: 400px;
+        width: 400px;
+        text-align: center;
+        color: white; }
+        * #grilla #hijoSeccionSecundaria #contenedorActividades #cajaFun .textosActividades {
+          text-align: center;
+          padding-top: 40%; }
+      * #grilla #hijoSeccionSecundaria #contenedorActividades #cajaFun:hover {
+        transform: scale(1.3); }
+      * #grilla #hijoSeccionSecundaria #contenedorActividades #cajaCross {
+        background-image: url(../multimedia/cf22.jpg);
+        background-repeat: no-repeat;
+        background-size: cover;
+        flex-grow: 0;
+        height: 400px;
+        width: 400px;
+        text-align: center;
+        color: white; }
+        * #grilla #hijoSeccionSecundaria #contenedorActividades #cajaCross .textosActividades {
+          text-align: center;
+          padding-top: 40%; }
+      * #grilla #hijoSeccionSecundaria #contenedorActividades #cajaCross:hover {
+        transform: scale(1.3); }
+      * #grilla #hijoSeccionSecundaria #contenedorActividades #cajaYoga {
+        background-image: url(../multimedia/yoga3.jpg);
+        background-repeat: no-repeat;
+        background-size: cover;
+        flex-grow: 0;
+        height: 400px;
+        width: 400px;
+        text-align: center;
+        color: white; }
+        * #grilla #hijoSeccionSecundaria #contenedorActividades #cajaYoga .textosActividades {
+          text-align: center;
+          padding-top: 50%; }
+      * #grilla #hijoSeccionSecundaria #contenedorActividades #cajaYoga:hover {
+        transform: scale(1.3); }
+      * #grilla #hijoSeccionSecundaria #contenedorActividades #cajaHitt {
+        background-image: url(../multimedia/cf15.jpg);
+        background-repeat: no-repeat;
+        background-size: cover;
+        flex-grow: 0;
+        height: 400px;
+        width: 400px;
+        text-align: center;
+        color: white; }
+        * #grilla #hijoSeccionSecundaria #contenedorActividades #cajaHitt .textosActividades {
+          text-align: center;
+          padding-top: 50%; }
+      * #grilla #hijoSeccionSecundaria #contenedorActividades #cajaHitt:hover {
+        transform: scale(1.3); }
+    * #grilla #hijoSeccionSecundaria #contenedorValores {
+      display: flex;
+      flex-direction: row;
+      height: 300px;
+      max-width: 100%;
+      justify-content: space-around;
+      align-items: center;
+      margin-left: 5%; }
+      * #grilla #hijoSeccionSecundaria #contenedorValores #cajaEntrenamiento {
+        flex-grow: 1;
+        font-size: 100px;
+        font-weight: bold; }
+        * #grilla #hijoSeccionSecundaria #contenedorValores #cajaEntrenamiento .iconoEntrenamiento {
+          font-size: 15%; }
+        * #grilla #hijoSeccionSecundaria #contenedorValores #cajaEntrenamiento .fas:hover {
+          color: white;
+          transform: scale(1.2); }
+      * #grilla #hijoSeccionSecundaria #contenedorValores #cajaSalon {
+        flex-grow: 1;
+        font-size: 100px;
+        font-weight: bold; }
+        * #grilla #hijoSeccionSecundaria #contenedorValores #cajaSalon .iconoSalon {
+          font-size: 15%; }
+        * #grilla #hijoSeccionSecundaria #contenedorValores #cajaSalon .fas:hover {
+          color: white;
+          transform: scale(1.2); }
+      * #grilla #hijoSeccionSecundaria #contenedorValores #cajaEntrenadores {
+        flex-grow: 1;
+        font-size: 100px;
+        font-weight: bold; }
+        * #grilla #hijoSeccionSecundaria #contenedorValores #cajaEntrenadores .iconoEntrenadores {
+          font-size: 15%; }
+        * #grilla #hijoSeccionSecundaria #contenedorValores #cajaEntrenadores .fas:hover {
+          color: white;
+          transform: scale(1.2); }
+    * #grilla #hijoSeccionSecundaria #seccionTresClases {
+      display: grid;
+      height: 100%;
+      grid-template-columns: 50% 50%;
+      grid-template-rows: 40% 40%;
+      grid-template-areas: "foto 1" "foto2" "foto 3" "foto4";
+      column-gap: 5px;
+      background-color: black;
+      align-items: flex-end;
+      justify-items: center; }
+      * #grilla #hijoSeccionSecundaria #seccionTresClases #tituloSeccionTresClases {
+        grid-area: "titulo"; }
+      * #grilla #hijoSeccionSecundaria #seccionTresClases #foto1SeccionTres {
+        grid-area: "foto1";
+        background-image: url(../multimedia/fun6.jpg);
+        background-size: cover;
+        width: 90%;
+        height: 90%;
+        font-size: 120%;
+        border-radius: 8px; }
+      * #grilla #hijoSeccionSecundaria #seccionTresClases #foto2SeccionTres {
+        grid-area: "foto2";
+        background-image: url(../multimedia/cf16.jpg);
+        background-size: cover;
+        width: 90%;
+        height: 90%;
+        font-size: 120%;
+        border-radius: 8px; }
+      * #grilla #hijoSeccionSecundaria #seccionTresClases #foto3SeccionTres {
+        grid-area: "foto3";
+        background-image: url(../multimedia/cf17.jpg);
+        background-size: cover;
+        width: 90%;
+        height: 90%;
+        font-size: 120%;
+        border-radius: 8px; }
+      * #grilla #hijoSeccionSecundaria #seccionTresClases #foto4SeccionTres {
+        grid-area: "foto4";
+        background-image: url(../multimedia/yoga2.jpg);
+        background-size: cover;
+        width: 90%;
+        height: 90%;
+        font-size: 120%;
+        border-radius: 8px; }
+    * #grilla #hijoSeccionSecundaria #contenedorPrecios {
+      display: flex;
+      flex-direction: row;
+      height: auto;
+      max-width: 100%;
+      justify-content: space-around;
+      border-radius: 6px;
+      margin: auto;
+      padding-top: 40px; }
+      * #grilla #hijoSeccionSecundaria #contenedorPrecios .cajaPasesLibre {
+        border-radius: 8px;
+        box-shadow: 0 2px 2px rgba(0, 0, 0, 0.2);
+        overflow: hidden;
+        margin: 20px;
+        text-align: center;
+        transition: all 0.25s; }
+      * #grilla #hijoSeccionSecundaria #contenedorPrecios .cajaPasesLibre:hover {
+        transform: translateY(-15px);
+        box-shadow: 0 12px 16px rgba(252, 252, 252, 0.5); }
+    * #grilla #hijoSeccionSecundaria .container p {
+      padding-left: 10%; }
+    * #grilla #hijoSeccionSecundaria .contenedorFotosRedes {
+      display: flex;
+      flex-direction: row;
+      justify-content: space-around;
+      height: 600px;
+      max-width: 100%;
+      padding-top: 20px; }
+      * #grilla #hijoSeccionSecundaria .contenedorFotosRedes .cajaFotoRedes {
+        height: 400px;
+        max-width: 100%; }
+    * #grilla #hijoSeccionSecundaria .contenedorVideosGaleria {
+      display: flex;
+      flex-direction: row;
+      height: 100%;
+      justify-content: space-between;
+      padding-top: 30px;
+      padding-left: 20px; }
+      * #grilla #hijoSeccionSecundaria .contenedorVideosGaleria .cajaVideosGaleriaUno {
+        width: 100%;
+        height: auto; }
+      * #grilla #hijoSeccionSecundaria .contenedorVideosGaleria .cajaVideosGaleriaDos {
+        width: 100%;
+        height: auto; }
+      * #grilla #hijoSeccionSecundaria .contenedorVideosGaleria .cajaVideosGaleriaTres {
+        width: 100%;
+        height: auto; }
+  * #grilla #hijoSeccionTerciaria {
+    background-image: linear-gradient(to bottom, #237931, #005517); }
+    * #grilla #hijoSeccionTerciaria .titulosSecundarios {
+      color: #fdfdfd;
+      text-align: center;
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      font-style: oblique;
+      font-size: 35px;
+      font-weight: bold;
+      padding-top: 5px; }
+    * #grilla #hijoSeccionTerciaria .titulosTerciarios {
+      color: black;
+      text-align: center;
+      font-family: 'Source Sans Pro', sans-serif;
+      font-style: oblique;
+      font-size: 20px;
+      font-weight: bold;
+      padding-top: 5px; }
+    * #grilla #hijoSeccionTerciaria #contenedorServicios {
+      display: flex;
+      flex-direction: row;
+      height: auto;
+      max-width: 100%;
+      justify-content: center;
+      border-radius: 6px;
+      margin: auto; }
+      * #grilla #hijoSeccionTerciaria #contenedorServicios .cajaServicios {
+        border-radius: 8px;
+        box-shadow: 0 2px 2px rgba(0, 0, 0, 0.2);
+        overflow: hidden;
+        margin: 10px;
+        text-align: center;
+        transition: all 0.25s; }
+      * #grilla #hijoSeccionTerciaria #contenedorServicios .cajaServicios:hover {
+        transform: scale(1.1);
+        box-shadow: 0 12px 16px rgba(252, 252, 252, 0.5); }
+    * #grilla #hijoSeccionTerciaria .contenedorFotosGaleria {
+      display: flex;
+      flex-direction: row;
+      height: 100%;
+      justify-content: space-around;
+      padding-top: 10px; }
+      * #grilla #hijoSeccionTerciaria .contenedorFotosGaleria .cajaFotosUno {
+        max-width: 100%;
+        height: auto; }
+      * #grilla #hijoSeccionTerciaria .contenedorFotosGaleria .cajaFotoDos {
+        max-width: 100%;
+        height: auto; }
+      * #grilla #hijoSeccionTerciaria .contenedorFotosGaleria .cajaFotoTres {
+        max-width: 100%;
+        height: auto; }
+      * #grilla #hijoSeccionTerciaria .contenedorFotosGaleria .cajaFotoCuatro {
+        max-width: 100%;
+        height: auto; }
+  * #grilla #hijoFooter {
+    background-image: linear-gradient(to bottom, #144b14, #113111); }
+    * #grilla #hijoFooter .footer, * #grilla #hijoFooter .footer .footer__nombre {
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      font-style: oblique;
+      text-align: center;
+      font-weight: bold; }
+      * #grilla #hijoFooter .footer .footer__nombre {
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        font-size: 120%;
+        letter-spacing: 1px;
+        font-weight: bold;
+        color: black;
+        width: 100%;
+        height: 100%;
+        padding-top: 20px; }
+      * #grilla #hijoFooter .footer small, * #grilla #hijoFooter .footer .footer__nombre small {
+        color: black;
+        font-family: "Segoe UI";
+        font-size: 100%;
+        letter-spacing: 1px;
+        font-weight: bold;
+        width: 100%;
+        height: 100%;
+        padding-top: 20px; }
+
+/*FIN GRILLA GENERAL*/
+/*INICIO MEDIA QUERI HASTA 600px */
+@media only screen and (max-width: 600px) {
+  /*INICIO GRILLA GENERAL - TODAS LAS PAGINAS */
+  #grilla {
+    display: grid;
+    height: 4200px;
+    grid-template-columns: 100%;
+    grid-template-rows: 3% 9% 20% 50% 15% 3%;
+    grid-template-areas: "header" "portada" "seccionPrincipal" "seccionSecundaria" "seccionTerciaria" "footer";
+    /*Estilo para logos,titulos,parrafos*/ }
+    #grilla #hijoHeader .menu {
+      height: 100px; }
+      #grilla #hijoHeader .menu .logo {
+        font-size: 40%;
+        color: white; }
+      #grilla #hijoHeader .menu .nav__lista {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        list-style-type: none;
+        text-decoration: none; }
+        #grilla #hijoHeader .menu .nav__lista .nav__item {
+          height: 20px;
+          font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+          justify-content: space-between;
+          font-size: 10px;
+          font-weight: bold; }
+      #grilla #hijoHeader .menu button.btn-outline-success {
+        font-size: 80%; }
+    #grilla #hijoPortada .seccionIndex {
+      background-size: cover;
+      height: 100%; }
+      #grilla #hijoPortada .seccionIndex .titulosPrincipales {
+        font-size: 170%;
+        padding-top: 20%; }
+      #grilla #hijoPortada .seccionIndex .titulosSecundarios {
+        font-size: 120%;
+        padding-top: 10px; }
+    #grilla #hijoPortada .seccionClases {
+      background-size: cover;
+      height: 100%; }
+      #grilla #hijoPortada .seccionClases .titulosPrincipales {
+        font-size: 170%;
+        padding-top: 20%; }
+      #grilla #hijoPortada .seccionClases .titulosSecundarios {
+        font-size: 120%;
+        padding-top: 10px; }
+    #grilla #hijoPortada .seccionHorarios {
+      background-size: cover;
+      height: 100%; }
+      #grilla #hijoPortada .seccionHorarios .titulosPrincipales {
+        font-size: 250%;
+        padding-top: 20%; }
+    #grilla #hijoPortada .seccionContacto {
+      background-size: cover;
+      height: 100%; }
+      #grilla #hijoPortada .seccionContacto .titulosPrincipales {
+        font-size: 250%;
+        padding-top: 20%; }
+    #grilla #hijoPortada .seccionGaleria {
+      background-size: cover;
+      height: 100%; }
+      #grilla #hijoPortada .seccionGaleria .titulosPrincipales {
+        font-size: 250%;
+        padding-top: 20%; }
+    #grilla #hijoSeccionPrincipal {
+      /*Grilla para Seccion Principal Index*/
+      /* FIN PAGINA INDEX*/ }
+      #grilla #hijoSeccionPrincipal #grillaSeccionPrincipal {
+        display: grid;
+        height: 100%;
+        grid-template-columns: 100%;
+        grid-template-rows: 30% 70%;
+        grid-template-areas: "articulo"  "fotoPrincipal";
+        justify-items: center;
+        align-items: stretch;
+        background-color: #4d4d4d; }
+        #grilla #hijoSeccionPrincipal #grillaSeccionPrincipal #articuloPrincipal {
+          grid-area: articulo; }
+          #grilla #hijoSeccionPrincipal #grillaSeccionPrincipal #articuloPrincipal .titulosSecundarios {
+            font-size: 120%; }
+          #grilla #hijoSeccionPrincipal #grillaSeccionPrincipal #articuloPrincipal .contenidoParrafo {
+            font-size: 80%;
+            color: whitesmoke;
+            text-align: center;
+            padding-top: 2px; }
+          #grilla #hijoSeccionPrincipal #grillaSeccionPrincipal #articuloPrincipal #textosPrincipales {
+            height: auto;
+            font-size: 90%;
+            padding-top: 5px; }
+          #grilla #hijoSeccionPrincipal #grillaSeccionPrincipal #articuloPrincipal div a .btn {
+            margin-left: 40%;
+            border-style: double;
+            font-size: 50%;
+            font-weight: bold;
+            color: white; }
+        #grilla #hijoSeccionPrincipal #grillaSeccionPrincipal #hijoFotoPrincipal {
+          max-width: 120%;
+          height: auto;
+          margin-bottom: 20px;
+          margin-left: 90px;
+          justify-content: center; }
+          #grilla #hijoSeccionPrincipal #grillaSeccionPrincipal #hijoFotoPrincipal .titulosTerciarios {
+            font-size: 90%;
+            text-align: left; }
+      #grilla #hijoSeccionPrincipal #grillaDosClases {
+        display: grid;
+        height: 100%;
+        grid-template-columns: 100%;
+        grid-template-rows: 30% 70%;
+        grid-template-areas: "articulo"  "fotoPrincipal";
+        justify-items: center;
+        align-items: stretch;
+        background-color: #4d4d4d; }
+        #grilla #hijoSeccionPrincipal #grillaDosClases #articuloPrincipalClases {
+          grid-area: articulo; }
+          #grilla #hijoSeccionPrincipal #grillaDosClases #articuloPrincipalClases .titulosSecundarios {
+            font-size: 120%; }
+          #grilla #hijoSeccionPrincipal #grillaDosClases #articuloPrincipalClases .contenidoParrafo {
+            font-size: 80%;
+            color: whitesmoke;
+            text-align: center;
+            padding-top: 2px; }
+          #grilla #hijoSeccionPrincipal #grillaDosClases #articuloPrincipalClases #textosPrincipales {
+            height: auto;
+            font-size: 90%;
+            padding-top: 5px; }
+          #grilla #hijoSeccionPrincipal #grillaDosClases #articuloPrincipalClases div a .btn {
+            margin-left: 40%;
+            border-style: double;
+            font-size: 50%;
+            font-weight: bold;
+            color: white; }
+        #grilla #hijoSeccionPrincipal #grillaDosClases #fotoPrincipalClases {
+          max-width: 120%;
+          height: auto;
+          margin-top: 100px;
+          margin-left: 50px;
+          justify-content: center; }
+          #grilla #hijoSeccionPrincipal #grillaDosClases #fotoPrincipalClases .titulosTerciarios {
+            font-size: 90%;
+            text-align: left; }
+      #grilla #hijoSeccionPrincipal #seccionPrincipal .titulosSecundarios {
+        font-size: 120%; }
+      #grilla #hijoSeccionPrincipal #seccionPrincipal .contenidoParrafo {
+        font-size: 80%;
+        color: whitesmoke;
+        text-align: center;
+        padding-top: 2px; }
+      #grilla #hijoSeccionPrincipal #seccionPrincipal #textosPrincipales {
+        height: auto;
+        font-size: 90%;
+        padding-top: 5px; }
+      #grilla #hijoSeccionPrincipal #seccionSecundaria .titulosSecundarios {
+        font-size: 120%; }
+      #grilla #hijoSeccionPrincipal #seccionSecundaria .table {
+        font-size: 50%; }
+      #grilla #hijoSeccionPrincipal .titulosContacto .titulosSecundarios {
+        font-size: 120%; }
+      #grilla #hijoSeccionPrincipal .titulosContacto .titulosTerciarios {
+        font-size: 90%; }
+      #grilla #hijoSeccionPrincipal .direccionContacto {
+        /*Google Maps - Animación*/
+        /*Flex Ubicacion - PAGINA CONTACTO */ }
+        #grilla #hijoSeccionPrincipal .direccionContacto .contenidoParrafo {
+          font-family: 'Source Sans Pro', sans-serif;
+          text-align: justify;
+          font-weight: bold;
+          padding-top: 20px; }
+        #grilla #hijoSeccionPrincipal .direccionContacto iframe {
+          width: 400px; }
+        #grilla #hijoSeccionPrincipal .direccionContacto #contenedorUbicacion {
+          display: flex;
+          flex-direction: row;
+          height: 300px;
+          max-width: 100%;
+          justify-content: center;
+          align-items: center;
+          margin-left: 5%; }
+          #grilla #hijoSeccionPrincipal .direccionContacto #contenedorUbicacion #cajaDireccion {
+            flex-grow: 1;
+            font-size: 80px;
+            font-weight: bold; }
+            #grilla #hijoSeccionPrincipal .direccionContacto #contenedorUbicacion #cajaDireccion .fas:hover {
+              color: white;
+              transform: scale(1.2); }
+            #grilla #hijoSeccionPrincipal .direccionContacto #contenedorUbicacion #cajaDireccion a {
+              text-decoration: none; }
+          #grilla #hijoSeccionPrincipal .direccionContacto #contenedorUbicacion #cajaCelular {
+            flex-grow: 1;
+            font-size: 80px;
+            font-weight: bold; }
+            #grilla #hijoSeccionPrincipal .direccionContacto #contenedorUbicacion #cajaCelular .fas:hover {
+              color: white;
+              transform: scale(1.2); }
+          #grilla #hijoSeccionPrincipal .direccionContacto #contenedorUbicacion #cajaHorario {
+            flex-grow: 1;
+            font-size: 80px;
+            font-weight: bold; }
+            #grilla #hijoSeccionPrincipal .direccionContacto #contenedorUbicacion #cajaHorario .far:hover {
+              color: white;
+              transform: scale(1.2); }
+      #grilla #hijoSeccionPrincipal #grillaDosGaleria {
+        display: grid;
+        height: 100%;
+        grid-template-columns: 100%;
+        grid-template-rows: 30% 70%;
+        grid-template-areas: "articulo"  "fotoPrincipal";
+        justify-items: center;
+        align-items: stretch;
+        background-color: #4d4d4d; }
+        #grilla #hijoSeccionPrincipal #grillaDosGaleria #articuloPrincipalGaleria {
+          grid-area: articulo; }
+          #grilla #hijoSeccionPrincipal #grillaDosGaleria #articuloPrincipalGaleria .titulosSecundarios {
+            font-size: 120%; }
+          #grilla #hijoSeccionPrincipal #grillaDosGaleria #articuloPrincipalGaleria .contenidoParrafo {
+            font-size: 80%;
+            color: whitesmoke;
+            text-align: center;
+            padding-top: 2px; }
+          #grilla #hijoSeccionPrincipal #grillaDosGaleria #articuloPrincipalGaleria #textosPrincipales {
+            height: auto;
+            font-size: 90%;
+            padding-top: 5px; }
+        #grilla #hijoSeccionPrincipal #grillaDosGaleria #fotoPrincipalGaleria {
+          max-width: 140%;
+          height: auto;
+          margin-top: 100px;
+          margin-left: 130px;
+          justify-content: center; }
+          #grilla #hijoSeccionPrincipal #grillaDosGaleria #fotoPrincipalGaleria .titulosTerciarios {
+            font-size: 90%;
+            text-align: left; }
+    #grilla #hijoSeccionSecundaria .titulosSecundarios {
+      font-size: 120%; }
+    #grilla #hijoSeccionSecundaria #textosPrincipales {
+      font-size: 80%;
+      padding-top: 1px; }
+    #grilla #hijoSeccionSecundaria #contenedorActividades {
+      height: 1100px;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      font-size: 80%; }
+    #grilla #hijoSeccionSecundaria section section div img {
+      height: 320px;
+      width: 320px;
+      border: solid black; }
+    #grilla #hijoSeccionSecundaria #contenedorPromoFocus {
+      height: auto;
+      background-color: black;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center; }
+      #grilla #hijoSeccionSecundaria #contenedorPromoFocus #tituloPromoFocus {
+        text-align: center;
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        font-style: oblique;
+        font-weight: bold;
+        font-size: 100%;
+        color: #169b16;
+        margin-top: 5px;
+        padding-bottom: 5px; }
+      #grilla #hijoSeccionSecundaria #contenedorPromoFocus #cajaBotonClaseOnline {
+        height: auto;
+        text-align: center;
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        font-size: 100%;
+        font-weight: bold;
+        font-style: oblique;
+        color: #169b16;
+        padding-bottom: 2px; }
+        #grilla #hijoSeccionSecundaria #contenedorPromoFocus #cajaBotonClaseOnline button.btn-outline-warning {
+          font-size: 60%; }
+    #grilla #hijoSeccionSecundaria #contenedorValores {
+      display: flex;
+      flex-direction: column;
+      height: 600px;
+      max-width: 100%;
+      justify-content: center;
+      align-items: center; }
+      #grilla #hijoSeccionSecundaria #contenedorValores #cajaEntrenamiento {
+        font-size: 80px;
+        font-weight: bold; }
+        #grilla #hijoSeccionSecundaria #contenedorValores #cajaEntrenamiento .iconoEntrenamiento {
+          font-size: 20%; }
+        #grilla #hijoSeccionSecundaria #contenedorValores #cajaEntrenamiento .fas:hover {
+          color: white;
+          transform: scale(1.2); }
+      #grilla #hijoSeccionSecundaria #contenedorValores #cajaSalon {
+        font-size: 80px;
+        font-weight: bold; }
+        #grilla #hijoSeccionSecundaria #contenedorValores #cajaSalon .iconoSalon {
+          font-size: 20%; }
+        #grilla #hijoSeccionSecundaria #contenedorValores #cajaSalon .fas:hover {
+          color: white;
+          transform: scale(1.2); }
+      #grilla #hijoSeccionSecundaria #contenedorValores #cajaEntrenadores {
+        font-size: 80px;
+        font-weight: bold; }
+        #grilla #hijoSeccionSecundaria #contenedorValores #cajaEntrenadores .iconoEntrenadores {
+          font-size: 20%; }
+        #grilla #hijoSeccionSecundaria #contenedorValores #cajaEntrenadores .fas:hover {
+          color: white;
+          transform: scale(1.2); }
+    #grilla #hijoSeccionSecundaria #seccionTresClases {
+      display: grid;
+      height: 100%;
+      grid-template-columns: 100%;
+      grid-template-rows: 20% 20% 20% 20%;
+      grid-template-areas: "foto 1"  "foto 2"   "foto 3"  "foto 4";
+      column-gap: 1px;
+      background-color: black;
+      align-items: center;
+      justify-items: center; }
+      #grilla #hijoSeccionSecundaria #seccionTresClases #tituloSeccionTresClases {
+        grid-area: "titulo";
+        font-size: 10%; }
+      #grilla #hijoSeccionSecundaria #seccionTresClases #foto1SeccionTres {
+        grid-area: "foto1";
+        background-image: url(../multimedia/fun6.jpg);
+        background-size: cover;
+        width: 95%;
+        height: 95%;
+        font-size: 90%; }
+      #grilla #hijoSeccionSecundaria #seccionTresClases #foto2SeccionTres {
+        grid-area: "foto2";
+        background-image: url(../multimedia/cf16.jpg);
+        background-size: cover;
+        width: 95%;
+        height: 95%;
+        font-size: 90%; }
+      #grilla #hijoSeccionSecundaria #seccionTresClases #foto3SeccionTres {
+        grid-area: "foto3";
+        background-image: url(../multimedia/cf17.jpg);
+        background-size: cover;
+        width: 95%;
+        height: 95%;
+        font-size: 90%; }
+      #grilla #hijoSeccionSecundaria #seccionTresClases #foto4SeccionTres {
+        grid-area: "foto4";
+        background-image: url(../multimedia/yoga2.jpg);
+        background-size: cover;
+        width: 95%;
+        height: 95%;
+        font-size: 90%; }
+    #grilla #hijoSeccionSecundaria #contenedorPrecios {
+      display: flex;
+      flex-direction: column;
+      height: 58%;
+      max-width: 90%;
+      justify-content: space-around;
+      border-radius: 6px; }
+      #grilla #hijoSeccionSecundaria #contenedorPrecios .cajaPasesLibre {
+        height: 60%;
+        border-radius: 8px;
+        box-shadow: 0 2px 2px rgba(0, 0, 0, 0.2);
+        overflow: hidden;
+        text-align: center;
+        transition: all 0.25s; }
+        #grilla #hijoSeccionSecundaria #contenedorPrecios .cajaPasesLibre img {
+          height: 80%;
+          width: 80%; }
+    #grilla #hijoSeccionSecundaria .container .a {
+      font-size: 40%; }
+    #grilla #hijoSeccionSecundaria .container .btn {
+      font-size: 40%; }
+    #grilla #hijoSeccionSecundaria .container .card {
+      font-size: 60%; }
+    #grilla #hijoSeccionSecundaria .contenedorFotosRedes {
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      height: 80%;
+      max-width: 100%; }
+      #grilla #hijoSeccionSecundaria .contenedorFotosRedes .cajaFotoRedes {
+        height: 60%;
+        max-width: 90%;
+        padding-left: 20px; }
+    #grilla #hijoSeccionSecundaria .contenedorVideosGaleria {
+      display: flex;
+      flex-direction: column;
+      height: 100%;
+      justify-content: center;
+      padding-top: 10px;
+      padding-left: 20px; }
+      #grilla #hijoSeccionSecundaria .contenedorVideosGaleria .cajaVideosGaleriaUno {
+        width: 100%;
+        height: 100%; }
+        #grilla #hijoSeccionSecundaria .contenedorVideosGaleria .cajaVideosGaleriaUno iframe {
+          height: 300px; }
+      #grilla #hijoSeccionSecundaria .contenedorVideosGaleria .cajaVideosGaleriaDos {
+        width: 100%;
+        height: 100%; }
+        #grilla #hijoSeccionSecundaria .contenedorVideosGaleria .cajaVideosGaleriaDos iframe {
+          height: 300px; }
+      #grilla #hijoSeccionSecundaria .contenedorVideosGaleria .cajaVideosGaleriaTres {
+        width: 100%;
+        height: 100%; }
+        #grilla #hijoSeccionSecundaria .contenedorVideosGaleria .cajaVideosGaleriaTres iframe {
+          height: 300px; }
+    #grilla #hijoSeccionTerciaria .titulosSecundarios {
+      font-size: 120%; }
+    #grilla #hijoSeccionTerciaria .titulosTerciarios {
+      font-size: 100%; }
+    #grilla #hijoSeccionTerciaria #contenedorServicios {
+      display: flex;
+      flex-direction: column;
+      height: 80%;
+      max-width: 80%;
+      justify-content: center;
+      border-radius: 6px;
+      margin: auto; }
+      #grilla #hijoSeccionTerciaria #contenedorServicios .cajaServicios {
+        border-radius: 8px;
+        box-shadow: 0 2px 2px rgba(0, 0, 0, 0.2);
+        overflow: hidden;
+        margin: 10px;
+        text-align: center;
+        transition: all 0.25s; }
+        #grilla #hijoSeccionTerciaria #contenedorServicios .cajaServicios img {
+          height: 100%; }
+      #grilla #hijoSeccionTerciaria #contenedorServicios .cajaServicios:hover {
+        transform: scale(1.1);
+        box-shadow: 0 12px 16px rgba(252, 252, 252, 0.5); }
+    #grilla #hijoSeccionTerciaria .contenedorFotosGaleria {
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      height: 100%;
+      max-width: 100%; }
+      #grilla #hijoSeccionTerciaria .contenedorFotosGaleria .cajaFotoUno {
+        height: 100px;
+        max-width: 90%;
+        padding-left: 20px; }
+      #grilla #hijoSeccionTerciaria .contenedorFotosGaleria .cajaFotoDos {
+        height: 100px;
+        max-width: 90%;
+        padding-left: 20px; }
+      #grilla #hijoSeccionTerciaria .contenedorFotosGaleria .cajaFotoTres {
+        height: 100px;
+        max-width: 90%;
+        padding-left: 20px; }
+      #grilla #hijoSeccionTerciaria .contenedorFotosGaleria .cajaFotoCuatro {
+        height: 100px;
+        max-width: 90%;
+        padding-left: 20px; }
+    #grilla #hijoFooter {
+      height: 100px;
+      font-size: 100%; } }
+
+/*FIN MEDIA QUERI HASTA 600px */
+/*INICIO MEDIA QUERIA DESDE 600px */
+@media only screen and (min-width: 600px) {
+  #grilla {
+    display: grid;
+    height: 4200px;
+    grid-template-columns: 100%;
+    grid-template-rows: 3% 9% 20% 50% 15% 3%;
+    grid-template-areas: "header" "portada" "seccionPrincipal" "seccionSecundaria" "seccionTerciaria" "footer";
+    /*Estilo para logos,titulos,parrafos*/ }
+    #grilla #hijoHeader .menu {
+      height: 100px; }
+      #grilla #hijoHeader .menu .logo {
+        font-size: 40%;
+        color: white; }
+      #grilla #hijoHeader .menu .nav__lista {
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+        list-style-type: none;
+        text-decoration: none; }
+        #grilla #hijoHeader .menu .nav__lista .nav__item {
+          height: 20px;
+          font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+          justify-content: space-between;
+          font-size: 13px;
+          font-weight: bold; }
+      #grilla #hijoHeader .menu button.btn-outline-success {
+        font-size: 80%; }
+    #grilla #hijoPortada .seccionIndex {
+      background-size: cover;
+      height: 100%; }
+      #grilla #hijoPortada .seccionIndex .titulosPrincipales {
+        font-size: 210%;
+        padding-top: 10%; }
+      #grilla #hijoPortada .seccionIndex .titulosSecundarios {
+        font-size: 150%;
+        padding-top: 10px; }
+    #grilla #hijoPortada .seccionClases {
+      background-size: cover;
+      height: 100%; }
+      #grilla #hijoPortada .seccionClases .titulosPrincipales {
+        font-size: 270%;
+        padding-top: 10%; }
+      #grilla #hijoPortada .seccionClases .titulosSecundarios {
+        font-size: 120%;
+        padding-top: 10px; }
+    #grilla #hijoPortada .seccionHorarios {
+      background-size: cover;
+      height: 100%; }
+      #grilla #hijoPortada .seccionHorarios .titulosPrincipales {
+        font-size: 300%;
+        padding-top: 20%; }
+    #grilla #hijoPortada .seccionContacto {
+      background-size: cover;
+      height: 100%; }
+      #grilla #hijoPortada .seccionContacto .titulosPrincipales {
+        font-size: 300%;
+        padding-top: 20%; }
+    #grilla #hijoPortada .seccionGaleria {
+      background-size: cover;
+      height: 100%; }
+      #grilla #hijoPortada .seccionGaleria .titulosPrincipales {
+        font-size: 300%;
+        padding-top: 20%; }
+    #grilla #hijoSeccionPrincipal {
+      /*Grilla para Seccion Principal Index*/
+      /* FIN PAGINA INDEX*/ }
+      #grilla #hijoSeccionPrincipal #grillaSeccionPrincipal {
+        display: grid;
+        height: 100%;
+        grid-template-columns: 100%;
+        grid-template-rows: 40% 60%;
+        grid-template-areas: "articulo"  "fotoPrincipal";
+        justify-items: center;
+        align-items: stretch;
+        background-color: #4d4d4d; }
+        #grilla #hijoSeccionPrincipal #grillaSeccionPrincipal #articuloPrincipal {
+          grid-area: articulo; }
+          #grilla #hijoSeccionPrincipal #grillaSeccionPrincipal #articuloPrincipal .titulosSecundarios {
+            font-size: 150%; }
+          #grilla #hijoSeccionPrincipal #grillaSeccionPrincipal #articuloPrincipal .contenidoParrafo {
+            font-size: 90%;
+            color: whitesmoke;
+            text-align: center;
+            padding-top: 2px; }
+          #grilla #hijoSeccionPrincipal #grillaSeccionPrincipal #articuloPrincipal #textosPrincipales {
+            height: auto;
+            font-size: 90%;
+            padding-top: 5px; }
+          #grilla #hijoSeccionPrincipal #grillaSeccionPrincipal #articuloPrincipal div a .btn {
+            margin-left: 40%;
+            border-style: double;
+            font-size: 70%;
+            font-weight: bold;
+            color: white; }
+        #grilla #hijoSeccionPrincipal #grillaSeccionPrincipal #hijoFotoPrincipal img {
+          max-width: 100%;
+          height: auto; }
+        #grilla #hijoSeccionPrincipal #grillaSeccionPrincipal #hijoFotoPrincipal .titulosTerciarios {
+          font-size: 90%;
+          text-align: left; }
+      #grilla #hijoSeccionPrincipal #grillaDosClases {
+        display: grid;
+        height: 100%;
+        grid-template-columns: 100%;
+        grid-template-rows: 40% 60%;
+        grid-template-areas: "articulo"  "fotoPrincipal";
+        justify-items: center;
+        align-items: stretch;
+        background-color: #4d4d4d; }
+        #grilla #hijoSeccionPrincipal #grillaDosClases #articuloPrincipalClases {
+          grid-area: articulo; }
+          #grilla #hijoSeccionPrincipal #grillaDosClases #articuloPrincipalClases .titulosSecundarios {
+            font-size: 150%; }
+          #grilla #hijoSeccionPrincipal #grillaDosClases #articuloPrincipalClases .contenidoParrafo {
+            font-size: 90%;
+            color: whitesmoke;
+            text-align: center;
+            padding-top: 2px; }
+          #grilla #hijoSeccionPrincipal #grillaDosClases #articuloPrincipalClases #textosPrincipales {
+            height: auto;
+            font-size: 90%;
+            padding-top: 5px; }
+        #grilla #hijoSeccionPrincipal #grillaDosClases #fotoPrincipalClases {
+          max-width: 120%;
+          height: auto;
+          margin-top: 5px;
+          margin-right: 20px;
+          justify-content: center; }
+          #grilla #hijoSeccionPrincipal #grillaDosClases #fotoPrincipalClases img {
+            max-width: 100%;
+            height: auto; }
+          #grilla #hijoSeccionPrincipal #grillaDosClases #fotoPrincipalClases .titulosTerciarios {
+            font-size: 90%;
+            text-align: left; }
+      #grilla #hijoSeccionPrincipal #seccionPrincipal .titulosSecundarios {
+        font-size: 150%; }
+      #grilla #hijoSeccionPrincipal #seccionPrincipal .contenidoParrafo {
+        font-size: 120%;
+        color: whitesmoke;
+        text-align: center;
+        padding-top: 2px; }
+      #grilla #hijoSeccionPrincipal #seccionPrincipal #textosPrincipales {
+        height: auto;
+        font-size: 80%;
+        padding-top: 5px; }
+      #grilla #hijoSeccionPrincipal #seccionSecundaria .titulosSecundarios {
+        font-size: 150%; }
+      #grilla #hijoSeccionPrincipal #seccionSecundaria .table {
+        font-size: 70%; }
+      #grilla #hijoSeccionPrincipal .titulosContacto .titulosSecundarios {
+        font-size: 150%; }
+      #grilla #hijoSeccionPrincipal .titulosContacto .titulosTerciarios {
+        font-size: 100%; }
+      #grilla #hijoSeccionPrincipal .direccionContacto {
+        /*Google Maps - Animación*/
+        /*Flex Ubicacion - PAGINA CONTACTO */ }
+        #grilla #hijoSeccionPrincipal .direccionContacto .contenidoParrafo {
+          font-family: 'Source Sans Pro', sans-serif;
+          text-align: justify;
+          font-weight: bold;
+          padding-top: 20px; }
+        #grilla #hijoSeccionPrincipal .direccionContacto iframe {
+          width: 400px; }
+        #grilla #hijoSeccionPrincipal .direccionContacto #contenedorUbicacion {
+          display: flex;
+          flex-direction: row;
+          height: 300px;
+          max-width: 100%;
+          justify-content: center;
+          align-items: center;
+          margin-left: 5%; }
+          #grilla #hijoSeccionPrincipal .direccionContacto #contenedorUbicacion #cajaDireccion {
+            flex-grow: 1;
+            font-size: 80px;
+            font-weight: bold; }
+            #grilla #hijoSeccionPrincipal .direccionContacto #contenedorUbicacion #cajaDireccion .fas:hover {
+              color: white;
+              transform: scale(1.2); }
+            #grilla #hijoSeccionPrincipal .direccionContacto #contenedorUbicacion #cajaDireccion a {
+              text-decoration: none; }
+          #grilla #hijoSeccionPrincipal .direccionContacto #contenedorUbicacion #cajaCelular {
+            flex-grow: 1;
+            font-size: 80px;
+            font-weight: bold; }
+            #grilla #hijoSeccionPrincipal .direccionContacto #contenedorUbicacion #cajaCelular .fas:hover {
+              color: white;
+              transform: scale(1.2); }
+          #grilla #hijoSeccionPrincipal .direccionContacto #contenedorUbicacion #cajaHorario {
+            flex-grow: 1;
+            font-size: 80px;
+            font-weight: bold; }
+            #grilla #hijoSeccionPrincipal .direccionContacto #contenedorUbicacion #cajaHorario .far:hover {
+              color: white;
+              transform: scale(1.2); }
+      #grilla #hijoSeccionPrincipal #grillaDosGaleria {
+        display: grid;
+        height: 100%;
+        grid-template-columns: 100%;
+        grid-template-rows: 40% 60%;
+        grid-template-areas: "articulo"  "fotoPrincipal";
+        justify-items: center;
+        align-items: stretch;
+        background-color: #4d4d4d; }
+        #grilla #hijoSeccionPrincipal #grillaDosGaleria #articuloPrincipalGaleria {
+          grid-area: articulo; }
+          #grilla #hijoSeccionPrincipal #grillaDosGaleria #articuloPrincipalGaleria .titulosSecundarios {
+            font-size: 150%; }
+          #grilla #hijoSeccionPrincipal #grillaDosGaleria #articuloPrincipalGaleria .contenidoParrafo {
+            font-size: 90%;
+            color: whitesmoke;
+            text-align: center;
+            padding-top: 2px; }
+          #grilla #hijoSeccionPrincipal #grillaDosGaleria #articuloPrincipalGaleria #textosPrincipales {
+            height: auto;
+            font-size: 90%;
+            padding-top: 5px; }
+        #grilla #hijoSeccionPrincipal #grillaDosGaleria #fotoPrincipalGaleria {
+          max-width: 140%;
+          height: auto;
+          margin-top: 10px;
+          margin-left: 80px;
+          justify-content: center; }
+          #grilla #hijoSeccionPrincipal #grillaDosGaleria #fotoPrincipalGaleria img {
+            max-width: 100%;
+            height: auto; }
+          #grilla #hijoSeccionPrincipal #grillaDosGaleria #fotoPrincipalGaleria .titulosTerciarios {
+            font-size: 90%;
+            text-align: left; }
+    #grilla #hijoSeccionSecundaria .titulosSecundarios {
+      font-size: 150%; }
+    #grilla #hijoSeccionSecundaria #textosPrincipales {
+      font-size: 90%;
+      padding-top: 1px; }
+    #grilla #hijoSeccionSecundaria #contenedorActividades {
+      height: 1100px;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      font-size: 80%; }
+    #grilla #hijoSeccionSecundaria section section div img {
+      height: 320px;
+      width: 320px;
+      border: solid black; }
+    #grilla #hijoSeccionSecundaria #contenedorPromoFocus {
+      height: auto;
+      background-color: black;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center; }
+      #grilla #hijoSeccionSecundaria #contenedorPromoFocus #tituloPromoFocus {
+        text-align: center;
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        font-style: oblique;
+        font-weight: bold;
+        font-size: 100%;
+        color: #169b16;
+        margin-top: 5px;
+        padding-bottom: 5px; }
+      #grilla #hijoSeccionSecundaria #contenedorPromoFocus #cajaBotonClaseOnline {
+        height: auto;
+        text-align: center;
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        font-size: 100%;
+        font-weight: bold;
+        font-style: oblique;
+        color: #169b16;
+        padding-bottom: 2px; }
+        #grilla #hijoSeccionSecundaria #contenedorPromoFocus #cajaBotonClaseOnline button.btn-outline-warning {
+          font-size: 60%; }
+    #grilla #hijoSeccionSecundaria #contenedorValores {
+      display: flex;
+      flex-direction: column;
+      height: 600px;
+      max-width: 100%;
+      justify-content: left;
+      align-items: left; }
+      #grilla #hijoSeccionSecundaria #contenedorValores #cajaEntrenamiento {
+        font-size: 80px;
+        font-weight: bold; }
+        #grilla #hijoSeccionSecundaria #contenedorValores #cajaEntrenamiento .iconoEntrenamiento {
+          font-size: 20%; }
+        #grilla #hijoSeccionSecundaria #contenedorValores #cajaEntrenamiento .fas:hover {
+          color: white;
+          transform: scale(1.2); }
+      #grilla #hijoSeccionSecundaria #contenedorValores #cajaSalon {
+        font-size: 80px;
+        font-weight: bold; }
+        #grilla #hijoSeccionSecundaria #contenedorValores #cajaSalon .iconoSalon {
+          font-size: 20%; }
+        #grilla #hijoSeccionSecundaria #contenedorValores #cajaSalon .fas:hover {
+          color: white;
+          transform: scale(1.2); }
+      #grilla #hijoSeccionSecundaria #contenedorValores #cajaEntrenadores {
+        font-size: 80px;
+        font-weight: bold; }
+        #grilla #hijoSeccionSecundaria #contenedorValores #cajaEntrenadores .iconoEntrenadores {
+          font-size: 20%; }
+        #grilla #hijoSeccionSecundaria #contenedorValores #cajaEntrenadores .fas:hover {
+          color: white;
+          transform: scale(1.2); }
+    #grilla #hijoSeccionSecundaria #seccionTresClases {
+      display: grid;
+      height: 100%;
+      grid-template-columns: 100%;
+      grid-template-rows: 20% 20% 20% 20%;
+      grid-template-areas: "foto 1"  "foto 2"   "foto 3"  "foto 4";
+      column-gap: 1px;
+      background-color: black;
+      align-items: center;
+      justify-items: center; }
+      #grilla #hijoSeccionSecundaria #seccionTresClases #tituloSeccionTresClases {
+        grid-area: "titulo";
+        font-size: 10%; }
+      #grilla #hijoSeccionSecundaria #seccionTresClases #foto1SeccionTres {
+        grid-area: "foto1";
+        background-image: url(../multimedia/fun6.jpg);
+        background-size: cover;
+        width: 95%;
+        height: 95%;
+        font-size: 90%; }
+      #grilla #hijoSeccionSecundaria #seccionTresClases #foto2SeccionTres {
+        grid-area: "foto2";
+        background-image: url(../multimedia/cf16.jpg);
+        background-size: cover;
+        width: 95%;
+        height: 95%;
+        font-size: 90%; }
+      #grilla #hijoSeccionSecundaria #seccionTresClases #foto3SeccionTres {
+        grid-area: "foto3";
+        background-image: url(../multimedia/cf17.jpg);
+        background-size: cover;
+        width: 95%;
+        height: 95%;
+        font-size: 90%; }
+      #grilla #hijoSeccionSecundaria #seccionTresClases #foto4SeccionTres {
+        grid-area: "foto4";
+        background-image: url(../multimedia/yoga2.jpg);
+        background-size: cover;
+        width: 95%;
+        height: 95%;
+        font-size: 90%; }
+    #grilla #hijoSeccionSecundaria #contenedorPrecios {
+      display: flex;
+      flex-direction: column;
+      height: 70%;
+      max-width: 70%;
+      justify-content: space-around;
+      border-radius: 6px;
+      padding-top: 1px; }
+      #grilla #hijoSeccionSecundaria #contenedorPrecios .cajaPasesLibre {
+        height: 100%;
+        border-radius: 8px;
+        box-shadow: 0 2px 2px rgba(0, 0, 0, 0.2);
+        overflow: hidden;
+        text-align: center;
+        transition: all 0.25s; }
+        #grilla #hijoSeccionSecundaria #contenedorPrecios .cajaPasesLibre img {
+          height: auto;
+          max-width: 90%; }
+    #grilla #hijoSeccionSecundaria .container .a {
+      font-size: 80%; }
+    #grilla #hijoSeccionSecundaria .container .btn {
+      font-size: 80%; }
+    #grilla #hijoSeccionSecundaria .container .card {
+      font-size: 60%; }
+    #grilla #hijoSeccionSecundaria .contenedorFotosRedes {
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      height: auto;
+      max-width: 100%; }
+      #grilla #hijoSeccionSecundaria .contenedorFotosRedes .cajaFotoRedes {
+        height: 100%;
+        max-width: 90%;
+        padding-left: 20px; }
+    #grilla #hijoSeccionSecundaria .contenedorVideosGaleria {
+      display: flex;
+      flex-direction: column;
+      height: 100%;
+      justify-content: center;
+      padding-top: 10px;
+      padding-left: 20px; }
+      #grilla #hijoSeccionSecundaria .contenedorVideosGaleria .cajaVideosGaleriaUno {
+        width: 100%;
+        height: 100%; }
+        #grilla #hijoSeccionSecundaria .contenedorVideosGaleria .cajaVideosGaleriaUno iframe {
+          height: 300px; }
+      #grilla #hijoSeccionSecundaria .contenedorVideosGaleria .cajaVideosGaleriaDos {
+        width: 100%;
+        height: 100%; }
+        #grilla #hijoSeccionSecundaria .contenedorVideosGaleria .cajaVideosGaleriaDos iframe {
+          height: 300px; }
+      #grilla #hijoSeccionSecundaria .contenedorVideosGaleria .cajaVideosGaleriaTres {
+        width: 100%;
+        height: 100%; }
+        #grilla #hijoSeccionSecundaria .contenedorVideosGaleria .cajaVideosGaleriaTres iframe {
+          height: 300px; }
+    #grilla #hijoSeccionTerciaria .titulosSecundarios {
+      font-size: 150%; }
+    #grilla #hijoSeccionTerciaria .titulosTerciarios {
+      font-size: 100%; }
+    #grilla #hijoSeccionTerciaria #contenedorServicios {
+      display: flex;
+      flex-direction: column;
+      height: 80%;
+      max-width: 90%;
+      justify-content: center;
+      border-radius: 6px;
+      margin: auto; }
+      #grilla #hijoSeccionTerciaria #contenedorServicios .cajaServicios {
+        border-radius: 8px;
+        box-shadow: 0 2px 2px rgba(0, 0, 0, 0.2);
+        overflow: hidden;
+        margin: 10px;
+        text-align: center;
+        transition: all 0.25s; }
+        #grilla #hijoSeccionTerciaria #contenedorServicios .cajaServicios img {
+          height: 100%; }
+      #grilla #hijoSeccionTerciaria #contenedorServicios .cajaServicios:hover {
+        transform: scale(1.1);
+        box-shadow: 0 12px 16px rgba(252, 252, 252, 0.5); }
+    #grilla #hijoSeccionTerciaria .contenedorFotosGaleria {
+      display: flex;
+      flex-direction: row;
+      justify-content: center;
+      height: auto;
+      max-width: 100%; }
+      #grilla #hijoSeccionTerciaria .contenedorFotosGaleria .cajaFotoUno {
+        height: 60%;
+        max-width: 70%; }
+      #grilla #hijoSeccionTerciaria .contenedorFotosGaleria .cajaFotoDos {
+        height: 60%;
+        max-width: 70%; }
+      #grilla #hijoSeccionTerciaria .contenedorFotosGaleria .cajaFotoTres {
+        height: 60%;
+        max-width: 70%; }
+      #grilla #hijoSeccionTerciaria .contenedorFotosGaleria .cajaFotoCuatro {
+        height: 60%;
+        max-width: 70%; }
+    #grilla #hijoFooter {
+      height: 100px;
+      font-size: 100%; } }
+
+/*FIN MEDIA QUERI*/
+@media only screen and (min-width: 992px) {
+  #grilla {
+    display: grid;
+    height: 3700px;
+    grid-template-columns: 100%;
+    grid-template-rows: 3% 23% 25% 34% 12% 3%;
+    grid-template-areas: "header" "portada" "seccionPrincipal" "seccionSecundaria" "seccionTerciaria" "footer";
+    /*Estilo para logos,titulos,parrafos*/ }
+    #grilla #hijoHeader .menu {
+      margin: 0;
+      padding: 0;
+      display: flex;
+      flex-direction: row;
+      justify-content: space-evenly;
+      text-decoration: none;
+      height: 100px; }
+      #grilla #hijoHeader .menu .logo {
+        padding-top: 20px; }
+      #grilla #hijoHeader .menu .nav__lista {
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+        list-style-type: none;
+        text-decoration: none; }
+        #grilla #hijoHeader .menu .nav__lista .nav__item {
+          height: 40px;
+          font-family: Arial, Helvetica, sans-serif;
+          justify-content: space-between;
+          font-size: 18px;
+          font-weight: bold;
+          padding-right: 10px;
+          color: #09b109; }
+          #grilla #hijoHeader .menu .nav__lista .nav__item .nav__link {
+            color: #09b109;
+            text-decoration: none; }
+          #grilla #hijoHeader .menu .nav__lista .nav__item a:hover {
+            color: white; }
+      #grilla #hijoHeader .menu .redesNav {
+        display: flex;
+        flex-direction: row;
+        list-style-type: none;
+        align-items: center; }
+        #grilla #hijoHeader .menu .redesNav .redesNav__item {
+          color: white;
+          height: 40px;
+          font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+          justify-content: space-between;
+          font-size: 15px;
+          font-weight: bold;
+          padding-right: 10px; }
+          #grilla #hijoHeader .menu .redesNav .redesNav__item .redesNav__link {
+            color: white;
+            text-decoration: none; }
+          #grilla #hijoHeader .menu .redesNav .redesNav__item i:hover {
+            color: green; }
+    #grilla #hijoPortada {
+      background-color: black;
+      background-size: 100%;
+      height: 100%; }
+      #grilla #hijoPortada .seccionIndex {
+        background-image: url(../multimedia/cf19.jpeg);
+        background-repeat: no-repeat;
+        background-size: cover;
+        max-width: 100%;
+        height: 100%; }
+        #grilla #hijoPortada .seccionIndex .titulosPrincipales {
+          color: #2da12d;
+          font-style: oblique;
+          text-align: center;
+          font-size: 70px;
+          font-family: 'Fugaz One', cursive;
+          padding: 120px 10px 10px 10px; }
+        #grilla #hijoPortada .seccionIndex .titulosSecundarios {
+          color: #fdfdfd;
+          text-align: center;
+          font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+          font-style: oblique;
+          font-size: 40px;
+          font-weight: bold;
+          padding-top: 20px; }
+      #grilla #hijoPortada .seccionClases {
+        background-image: url(../multimedia/cf8.jpg);
+        background-repeat: no-repeat;
+        background-size: cover;
+        height: 100%;
+        max-width: 100%;
+        padding-top: 20px; }
+        #grilla #hijoPortada .seccionClases .titulosPrincipales {
+          color: #2da12d;
+          font-style: oblique;
+          text-align: center;
+          font-size: 70px;
+          font-family: 'Fugaz One', cursive;
+          padding: 60px 10px 10px 10px; }
+        #grilla #hijoPortada .seccionClases .titulosSecundarios {
+          color: #fdfdfd;
+          text-align: center;
+          font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+          font-style: oblique;
+          font-size: 40px;
+          font-weight: bold;
+          padding-top: 20px; }
+      #grilla #hijoPortada .seccionHorarios {
+        background-image: url(../multimedia/cf9.jpg);
+        background-repeat: no-repeat;
+        background-size: cover;
+        height: 100%;
+        max-width: 100%;
+        padding-top: 100px; }
+        #grilla #hijoPortada .seccionHorarios .titulosPrincipales {
+          color: #2da12d;
+          font-style: oblique;
+          text-align: center;
+          font-size: 70px;
+          font-family: 'Fugaz One', cursive;
+          padding: 60px 10px 10px 10px; }
+      #grilla #hijoPortada .seccionContacto {
+        background-image: url(../multimedia/crossfit6.jpg);
+        background-repeat: no-repeat;
+        background-size: cover;
+        height: 100%;
+        padding-top: 100px; }
+        #grilla #hijoPortada .seccionContacto .titulosPrincipales {
+          color: #2da12d;
+          font-style: oblique;
+          text-align: center;
+          font-size: 70px;
+          font-family: 'Fugaz One', cursive;
+          padding: 60px 10px 10px 10px; }
+      #grilla #hijoPortada .seccionGaleria {
+        background-image: url(../multimedia/crossfit5.jpg);
+        background-repeat: no-repeat;
+        background-size: cover;
+        height: 100%;
+        padding-top: 100px; }
+        #grilla #hijoPortada .seccionGaleria .titulosPrincipales {
+          color: #2da12d;
+          font-style: oblique;
+          text-align: center;
+          font-size: 70px;
+          font-family: 'Fugaz One', cursive;
+          padding: 60px 10px 10px 10px; }
+    #grilla #hijoSeccionPrincipal {
+      /*Grilla para Seccion Principal Index*/
+      /* FIN PAGINA INDEX*/ }
+      #grilla #hijoSeccionPrincipal #grillaSeccionPrincipal {
+        background-image: linear-gradient(to bottom, #5a5a5a, #3b8a3b);
+        display: grid;
+        height: 100%;
+        grid-template-columns: 50% 50%;
+        grid-template-rows: 100%;
+        grid-template-areas: "articulo" "fotoPrincipal";
+        column-gap: 10px;
+        justify-items: center;
+        align-items: stretch;
+        background-color: #4d4d4d; }
+        #grilla #hijoSeccionPrincipal #grillaSeccionPrincipal #articuloPrincipal {
+          grid-area: articulo; }
+          #grilla #hijoSeccionPrincipal #grillaSeccionPrincipal #articuloPrincipal .titulosSecundarios {
+            color: #fdfdfd;
+            text-align: center;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            font-style: oblique;
+            font-size: 40px;
+            font-weight: bold;
+            padding-top: 20px; }
+          #grilla #hijoSeccionPrincipal #grillaSeccionPrincipal #articuloPrincipal .contenidoParrafo {
+            font-family: 'Source Sans Pro', sans-serif;
+            text-align: justify;
+            font-weight: inherit;
+            padding-top: 20px;
+            font-size: 100%;
+            color: white; }
+          #grilla #hijoSeccionPrincipal #grillaSeccionPrincipal #articuloPrincipal div a .btn {
+            margin-left: 40%;
+            border-style: double;
+            font-size: 100%;
+            font-weight: bold;
+            color: white; }
+        #grilla #hijoSeccionPrincipal #grillaSeccionPrincipal #hijoFotoPrincipal {
+          padding-top: 30px; }
+          #grilla #hijoSeccionPrincipal #grillaSeccionPrincipal #hijoFotoPrincipal img {
+            height: 50%;
+            border-style: solid;
+            border-color: black;
+            border-radius: 8px; }
+          #grilla #hijoSeccionPrincipal #grillaSeccionPrincipal #hijoFotoPrincipal .titulosTerciarios {
+            color: black;
+            text-align: center;
+            font-family: 'Source Sans Pro', sans-serif;
+            font-style: oblique;
+            font-size: 20px;
+            font-weight: bold;
+            padding-top: 5px; }
+      #grilla #hijoSeccionPrincipal #grillaDosClases {
+        background-image: linear-gradient(to bottom, #5a5a5a, #3b8a3b);
+        display: grid;
+        height: 100%;
+        grid-template-columns: 50% 50%;
+        grid-template-rows: 100%;
+        grid-template-areas: "articulo" "fotoClases";
+        background-color: #4d4d4d;
+        column-gap: 10px;
+        justify-items: center;
+        align-items: stretch;
+        /*FIN*/ }
+        #grilla #hijoSeccionPrincipal #grillaDosClases #articuloPrincipalClases {
+          grid-area: articulo; }
+          #grilla #hijoSeccionPrincipal #grillaDosClases #articuloPrincipalClases .titulosSecundarios {
+            color: #fdfdfd;
+            text-align: center;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            font-style: oblique;
+            font-size: 40px;
+            font-weight: bold;
+            padding-top: 20px; }
+          #grilla #hijoSeccionPrincipal #grillaDosClases #articuloPrincipalClases .contenidoParrafo {
+            font-family: 'Source Sans Pro', sans-serif;
+            text-align: center;
+            font-weight: bold;
+            padding-top: 20px;
+            font-size: 100%;
+            color: white; }
+        #grilla #hijoSeccionPrincipal #grillaDosClases #fotoPrincipalClases {
+          padding-top: 40px;
+          padding-left: 60px; }
+          #grilla #hijoSeccionPrincipal #grillaDosClases #fotoPrincipalClases img {
+            height: 50%;
+            border-style: solid;
+            border-color: black;
+            border-radius: 8px; }
+          #grilla #hijoSeccionPrincipal #grillaDosClases #fotoPrincipalClases .titulosTerciarios {
+            color: black;
+            text-align: center;
+            font-family: 'Source Sans Pro', sans-serif;
+            font-style: oblique;
+            font-size: 20px;
+            font-weight: bold;
+            padding-top: 5px; }
+      #grilla #hijoSeccionPrincipal #seccionPrincipal .titulosSecundarios {
+        color: #fdfdfd;
+        text-align: center;
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        font-style: oblique;
+        font-size: 40px;
+        font-weight: bold;
+        padding-top: 20px; }
+      #grilla #hijoSeccionPrincipal #seccionPrincipal #textosPrincipales {
+        font-family: 'Source Sans Pro', sans-serif;
+        text-align: center;
+        font-weight: bold;
+        padding-top: 20px; }
+      #grilla #hijoSeccionPrincipal #seccionSecundaria .table {
+        font-size: 100%; }
+      #grilla #hijoSeccionPrincipal .titulosContacto .titulosSecundarios {
+        color: #fdfdfd;
+        text-align: center;
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        font-style: oblique;
+        font-size: 40px;
+        font-weight: bold;
+        padding-top: 20px; }
+      #grilla #hijoSeccionPrincipal .titulosContacto .titulosTerciarios {
+        color: black;
+        text-align: center;
+        font-family: 'Source Sans Pro', sans-serif;
+        font-style: oblique;
+        font-size: 20px;
+        font-weight: bold;
+        padding-top: 20px; }
+      #grilla #hijoSeccionPrincipal .direccionContacto {
+        /*Google Maps - Animación*/
+        /*Flex Ubicacion - PAGINA CONTACTO */ }
+        #grilla #hijoSeccionPrincipal .direccionContacto .contenidoParrafo {
+          font-family: 'Source Sans Pro', sans-serif;
+          text-align: justify;
+          font-weight: bold;
+          padding-top: 20px; }
+        #grilla #hijoSeccionPrincipal .direccionContacto iframe {
+          width: 600px;
+          transition: 3s; }
+        #grilla #hijoSeccionPrincipal .direccionContacto iframe:hover {
+          width: 1300px; }
+        #grilla #hijoSeccionPrincipal .direccionContacto #contenedorUbicacion {
+          display: flex;
+          flex-direction: row;
+          height: 300px;
+          max-width: 100%;
+          justify-content: center;
+          align-items: center;
+          margin-left: 10%; }
+          #grilla #hijoSeccionPrincipal .direccionContacto #contenedorUbicacion #cajaDireccion {
+            flex-grow: 1;
+            font-size: 100px;
+            font-weight: bold; }
+            #grilla #hijoSeccionPrincipal .direccionContacto #contenedorUbicacion #cajaDireccion .fas:hover {
+              color: white;
+              transform: scale(1.2); }
+            #grilla #hijoSeccionPrincipal .direccionContacto #contenedorUbicacion #cajaDireccion a {
+              text-decoration: none; }
+          #grilla #hijoSeccionPrincipal .direccionContacto #contenedorUbicacion #cajaCelular {
+            flex-grow: 1;
+            font-size: 100px;
+            font-weight: bold; }
+            #grilla #hijoSeccionPrincipal .direccionContacto #contenedorUbicacion #cajaCelular .fas:hover {
+              color: white;
+              transform: scale(1.2); }
+          #grilla #hijoSeccionPrincipal .direccionContacto #contenedorUbicacion #cajaHorario {
+            flex-grow: 1;
+            font-size: 100px;
+            font-weight: bold; }
+            #grilla #hijoSeccionPrincipal .direccionContacto #contenedorUbicacion #cajaHorario .far:hover {
+              color: white;
+              transform: scale(1.2); }
+      #grilla #hijoSeccionPrincipal #grillaDosGaleria {
+        background-image: linear-gradient(to bottom, #5a5a5a, #3b8a3b);
+        display: grid;
+        height: 100%;
+        grid-template-columns: 50% 50%;
+        grid-template-rows: 100%;
+        grid-template-areas: "articulo" "fotoClases";
+        background-color: #4d4d4d;
+        column-gap: 10px;
+        justify-items: center;
+        align-items: stretch; }
+        #grilla #hijoSeccionPrincipal #grillaDosGaleria #articuloPrincipalGaleria {
+          grid-area: articulo; }
+          #grilla #hijoSeccionPrincipal #grillaDosGaleria #articuloPrincipalGaleria .titulosSecundarios {
+            color: #fdfdfd;
+            text-align: center;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            font-style: oblique;
+            font-size: 40px;
+            font-weight: bold;
+            padding-top: 20px; }
+          #grilla #hijoSeccionPrincipal #grillaDosGaleria #articuloPrincipalGaleria .contenidoParrafo {
+            font-family: 'Source Sans Pro', sans-serif;
+            text-align: center;
+            font-weight: bold;
+            padding-top: 20px;
+            font-size: 100%;
+            color: white; }
+            #grilla #hijoSeccionPrincipal #grillaDosGaleria #articuloPrincipalGaleria .contenidoParrafo .titulosTerciarios {
+              color: black;
+              text-align: center;
+              font-family: 'Source Sans Pro', sans-serif;
+              font-style: oblique;
+              font-size: 20px;
+              font-weight: bold;
+              padding-top: 20px; }
+        #grilla #hijoSeccionPrincipal #grillaDosGaleria #fotoPrincipalGaleria {
+          padding-top: 30px; }
+          #grilla #hijoSeccionPrincipal #grillaDosGaleria #fotoPrincipalGaleria img {
+            height: 50%;
+            border-color: black;
+            border-style: solid;
+            border-radius: 8px; }
+          #grilla #hijoSeccionPrincipal #grillaDosGaleria #fotoPrincipalGaleria .titulosTerciarios {
+            color: black;
+            text-align: center;
+            font-family: 'Source Sans Pro', sans-serif;
+            font-style: oblique;
+            font-size: 20px;
+            font-weight: bold;
+            padding-top: 5px; }
+    #grilla #hijoSeccionSecundaria {
+      /*Flex para Actividades INDEX - INDEX */
+      /*Flex para Valores Distintivos Gim - INDEX */ }
+      #grilla #hijoSeccionSecundaria .titulosSecundarios {
+        color: #fdfdfd;
+        text-align: center;
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        font-style: oblique;
+        font-size: 40px;
+        font-weight: bold;
+        padding-top: 20px; }
+      #grilla #hijoSeccionSecundaria #textosPrincipales {
+        font-family: 'Source Sans Pro', sans-serif;
+        text-align: center;
+        font-weight: bold;
+        padding-top: 20px; }
+      #grilla #hijoSeccionSecundaria .titulosTerciarios {
+        color: black;
+        text-align: center;
+        font-family: 'Source Sans Pro', sans-serif;
+        font-style: oblique;
+        font-size: 20px;
+        font-weight: bold;
+        padding-top: 5px; }
+      #grilla #hijoSeccionSecundaria #contenedorPromoFocus {
+        height: 150px;
+        background-color: black;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-evenly;
+        align-items: center; }
+        #grilla #hijoSeccionSecundaria #contenedorPromoFocus #tituloPromoFocus {
+          text-align: left;
+          font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+          font-style: oblique;
+          font-weight: bold;
+          font-size: 200%;
+          color: #169b16;
+          padding-bottom: 30px; }
+        #grilla #hijoSeccionSecundaria #contenedorPromoFocus #cajaBotonClaseOnline {
+          text-align: center;
+          font-family: 'Source Sans Pro', sans-serif;
+          font-size: 170%;
+          font-weight: bold;
+          font-style: oblique;
+          padding-left: 20px;
+          color: #169b16; }
+        #grilla #hijoSeccionSecundaria #contenedorPromoFocus aside div input {
+          font-size: 60%; }
+      #grilla #hijoSeccionSecundaria #contenedorActividades {
+        background-color: linear-gradient(to bottom, #181818, #424242);
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+        height: auto;
+        width: 100%; }
+        #grilla #hijoSeccionSecundaria #contenedorActividades #cajaFun {
+          background-image: url(../multimedia/fun5.jpg);
+          background-repeat: no-repeat;
+          background-size: cover;
+          flex-grow: 0;
+          height: 400px;
+          width: 400px;
+          text-align: center;
+          color: white; }
+          #grilla #hijoSeccionSecundaria #contenedorActividades #cajaFun .textosActividades {
+            text-align: center;
+            padding-top: 40%; }
+        #grilla #hijoSeccionSecundaria #contenedorActividades #cajaFun:hover {
+          transform: scale(1.3); }
+        #grilla #hijoSeccionSecundaria #contenedorActividades #cajaCross {
+          background-image: url(../multimedia/cf22.jpg);
+          background-repeat: no-repeat;
+          background-size: cover;
+          flex-grow: 0;
+          height: 400px;
+          width: 400px;
+          text-align: center;
+          color: white; }
+          #grilla #hijoSeccionSecundaria #contenedorActividades #cajaCross .textosActividades {
+            text-align: center;
+            padding-top: 40%; }
+        #grilla #hijoSeccionSecundaria #contenedorActividades #cajaCross:hover {
+          transform: scale(1.3); }
+        #grilla #hijoSeccionSecundaria #contenedorActividades #cajaYoga {
+          background-image: url(../multimedia/yoga3.jpg);
+          background-repeat: no-repeat;
+          background-size: cover;
+          flex-grow: 0;
+          height: 400px;
+          width: 400px;
+          text-align: center;
+          color: white; }
+          #grilla #hijoSeccionSecundaria #contenedorActividades #cajaYoga .textosActividades {
+            text-align: center;
+            padding-top: 50%; }
+        #grilla #hijoSeccionSecundaria #contenedorActividades #cajaYoga:hover {
+          transform: scale(1.3); }
+        #grilla #hijoSeccionSecundaria #contenedorActividades #cajaHitt {
+          background-image: url(../multimedia/cf15.jpg);
+          background-repeat: no-repeat;
+          background-size: cover;
+          flex-grow: 0;
+          height: 400px;
+          width: 400px;
+          text-align: center;
+          color: white; }
+          #grilla #hijoSeccionSecundaria #contenedorActividades #cajaHitt .textosActividades {
+            text-align: center;
+            padding-top: 50%; }
+        #grilla #hijoSeccionSecundaria #contenedorActividades #cajaHitt:hover {
+          transform: scale(1.3); }
+      #grilla #hijoSeccionSecundaria #contenedorValores {
+        display: flex;
+        flex-direction: row;
+        height: 300px;
+        max-width: 100%;
+        justify-content: space-around;
+        align-items: center;
+        margin-left: 5%; }
+        #grilla #hijoSeccionSecundaria #contenedorValores #cajaEntrenamiento {
+          flex-grow: 1;
+          font-size: 100px;
+          font-weight: bold; }
+          #grilla #hijoSeccionSecundaria #contenedorValores #cajaEntrenamiento .iconoEntrenamiento {
+            font-size: 15%; }
+          #grilla #hijoSeccionSecundaria #contenedorValores #cajaEntrenamiento .fas:hover {
+            color: white;
+            transform: scale(1.2); }
+        #grilla #hijoSeccionSecundaria #contenedorValores #cajaSalon {
+          flex-grow: 1;
+          font-size: 100px;
+          font-weight: bold; }
+          #grilla #hijoSeccionSecundaria #contenedorValores #cajaSalon .iconoSalon {
+            font-size: 15%; }
+          #grilla #hijoSeccionSecundaria #contenedorValores #cajaSalon .fas:hover {
+            color: white;
+            transform: scale(1.2); }
+        #grilla #hijoSeccionSecundaria #contenedorValores #cajaEntrenadores {
+          flex-grow: 1;
+          font-size: 100px;
+          font-weight: bold; }
+          #grilla #hijoSeccionSecundaria #contenedorValores #cajaEntrenadores .iconoEntrenadores {
+            font-size: 15%; }
+          #grilla #hijoSeccionSecundaria #contenedorValores #cajaEntrenadores .fas:hover {
+            color: white;
+            transform: scale(1.2); }
+      #grilla #hijoSeccionSecundaria #seccionTresClases {
+        display: grid;
+        height: 100%;
+        grid-template-columns: 50% 50%;
+        grid-template-rows: 40% 40%;
+        grid-template-areas: "foto 1" "foto2" "foto 3" "foto4";
+        column-gap: 5px;
+        background-color: black;
+        align-items: flex-end;
+        justify-items: center; }
+        #grilla #hijoSeccionSecundaria #seccionTresClases #tituloSeccionTresClases {
+          grid-area: "titulo"; }
+        #grilla #hijoSeccionSecundaria #seccionTresClases #foto1SeccionTres {
+          grid-area: "foto1";
+          background-image: url(../multimedia/fun6.jpg);
+          background-size: cover;
+          width: 90%;
+          height: 90%;
+          font-size: 120%;
+          border-radius: 8px; }
+        #grilla #hijoSeccionSecundaria #seccionTresClases #foto2SeccionTres {
+          grid-area: "foto2";
+          background-image: url(../multimedia/cf16.jpg);
+          background-size: cover;
+          width: 90%;
+          height: 90%;
+          font-size: 120%;
+          border-radius: 8px; }
+        #grilla #hijoSeccionSecundaria #seccionTresClases #foto3SeccionTres {
+          grid-area: "foto3";
+          background-image: url(../multimedia/cf17.jpg);
+          background-size: cover;
+          width: 90%;
+          height: 90%;
+          font-size: 120%;
+          border-radius: 8px; }
+        #grilla #hijoSeccionSecundaria #seccionTresClases #foto4SeccionTres {
+          grid-area: "foto4";
+          background-image: url(../multimedia/yoga2.jpg);
+          background-size: cover;
+          width: 90%;
+          height: 90%;
+          font-size: 120%;
+          border-radius: 8px; }
+      #grilla #hijoSeccionSecundaria #contenedorPrecios {
+        display: flex;
+        flex-direction: row;
+        height: auto;
+        max-width: 100%;
+        justify-content: space-around;
+        border-radius: 6px;
+        margin: auto;
+        padding-top: 40px; }
+        #grilla #hijoSeccionSecundaria #contenedorPrecios .cajaPasesLibre {
+          border-radius: 8px;
+          box-shadow: 0 2px 2px rgba(0, 0, 0, 0.2);
+          overflow: hidden;
+          margin: 20px;
+          text-align: center;
+          transition: all 0.25s; }
+          #grilla #hijoSeccionSecundaria #contenedorPrecios .cajaPasesLibre img {
+            height: auto;
+            max-width: 100%; }
+        #grilla #hijoSeccionSecundaria #contenedorPrecios .cajaPasesLibre:hover {
+          transform: translateY(-15px);
+          box-shadow: 0 12px 16px rgba(252, 252, 252, 0.5); }
+      #grilla #hijoSeccionSecundaria .container .a {
+        font-size: 100%; }
+      #grilla #hijoSeccionSecundaria .container .btn {
+        font-size: 100%; }
+      #grilla #hijoSeccionSecundaria .container .card {
+        font-size: 100%; }
+      #grilla #hijoSeccionSecundaria .container p {
+        padding-left: 10%;
+        font-size: 100%; }
+      #grilla #hijoSeccionSecundaria .contenedorFotosRedes {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+        height: 600px;
+        max-width: 100%;
+        padding-top: 20px; }
+        #grilla #hijoSeccionSecundaria .contenedorFotosRedes .cajaFotoRedes {
+          height: 400px;
+          max-width: 100%; }
+      #grilla #hijoSeccionSecundaria .contenedorVideosGaleria {
+        display: flex;
+        flex-direction: row;
+        height: 100%;
+        justify-content: space-between;
+        padding-top: 30px;
+        padding-left: 20px; }
+        #grilla #hijoSeccionSecundaria .contenedorVideosGaleria .cajaVideosGaleriaUno {
+          width: 100%;
+          height: auto; }
+          #grilla #hijoSeccionSecundaria .contenedorVideosGaleria .cajaVideosGaleriaUno iframe {
+            height: 400px; }
+        #grilla #hijoSeccionSecundaria .contenedorVideosGaleria .cajaVideosGaleriaDos {
+          width: 100%;
+          height: auto; }
+          #grilla #hijoSeccionSecundaria .contenedorVideosGaleria .cajaVideosGaleriaDos iframe {
+            height: 400px; }
+        #grilla #hijoSeccionSecundaria .contenedorVideosGaleria .cajaVideosGaleriaTres {
+          width: 100%;
+          height: auto; }
+          #grilla #hijoSeccionSecundaria .contenedorVideosGaleria .cajaVideosGaleriaTres iframe {
+            height: 400px; }
+    #grilla #hijoSeccionTerciaria .titulosSecundarios {
+      color: #fdfdfd;
+      text-align: center;
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      font-style: oblique;
+      font-size: 35px;
+      font-weight: bold;
+      padding-top: 5px; }
+    #grilla #hijoSeccionTerciaria .titulosTerciarios {
+      color: black;
+      text-align: center;
+      font-family: 'Source Sans Pro', sans-serif;
+      font-style: oblique;
+      font-size: 20px;
+      font-weight: bold;
+      padding-top: 5px; }
+    #grilla #hijoSeccionTerciaria #contenedorServicios {
+      display: flex;
+      flex-direction: row;
+      height: auto;
+      max-width: 100%;
+      justify-content: center;
+      border-radius: 6px;
+      margin: auto; }
+      #grilla #hijoSeccionTerciaria #contenedorServicios .cajaServicios {
+        border-radius: 8px;
+        box-shadow: 0 2px 2px rgba(0, 0, 0, 0.2);
+        overflow: hidden;
+        margin: 10px;
+        text-align: center;
+        transition: all 0.25s; }
+      #grilla #hijoSeccionTerciaria #contenedorServicios .cajaServicios:hover {
+        transform: scale(1.1);
+        box-shadow: 0 12px 16px rgba(252, 252, 252, 0.5); }
+    #grilla #hijoSeccionTerciaria .contenedorFotosGaleria {
+      display: flex;
+      flex-direction: row;
+      height: 100%;
+      justify-content: space-around;
+      padding-top: 10px; }
+      #grilla #hijoSeccionTerciaria .contenedorFotosGaleria .cajaFotosUno {
+        max-width: 100%;
+        height: auto; }
+      #grilla #hijoSeccionTerciaria .contenedorFotosGaleria .cajaFotoDos {
+        max-width: 100%;
+        height: auto; }
+      #grilla #hijoSeccionTerciaria .contenedorFotosGaleria .cajaFotoTres {
+        max-width: 100%;
+        height: auto; }
+      #grilla #hijoSeccionTerciaria .contenedorFotosGaleria .cajaFotoCuatro {
+        max-width: 100%;
+        height: auto; }
+    #grilla #hijoFooter {
+      height: 100px;
+      font-size: 100%; } }
